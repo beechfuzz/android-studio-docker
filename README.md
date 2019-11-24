@@ -1,6 +1,8 @@
 # android-studio-docker
 Android Studio GUI on Docker
 
+**Android Studio Version: 3.5.2.0**
+
 ## How To Run
 
 ### Basic command:
