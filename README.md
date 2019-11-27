@@ -13,6 +13,11 @@ Android Studio GUI on Docker
         -e DISPLAY="$DISPLAY" 
         beechfuzz/android-studio-docker
         
+### android-studio-docker.sh
+Alternatively, you can use the included `android-studio-docker.sh` script:
+
+    sudo ./android-studio-docker.sh
+        
 ### Headless Docker Server
 If you're running Docker on a server that has no GUI, then you'll need to SSH into the server (with X11 forwarding enabled) and then run the `docker run` command.
 
@@ -41,5 +46,5 @@ If you're running Docker on a server that has no GUI, then you'll need to SSH in
         - Install PuTTY if you don't already have it installed.
         - In PuTTY, go to 'Connection' > 'SSH' > 'X11' and check the box next to 'Enable X11 Forwarding', then connect to the server
         
-3. Run the basic command mentioned above.
+3. Run the basic command mentioned above or run the `android-studio-docker.sh` script.
 
